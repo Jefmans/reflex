@@ -1,0 +1,22 @@
+assets/external/
+*.py[cod]
+*.db
+.web
+__pycache__/
+.states
+
+# Python
+__pycache__/
+*.pyc
+
+# Reflex build output
+.web/
+*.zip
+
+# Editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+/venv
