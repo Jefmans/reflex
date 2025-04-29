@@ -1,5 +1,5 @@
 import reflex as rx
-from frontend.layout import layout
+from layout import layout
 
 # Dummy listings
 properties = [
