@@ -4,8 +4,8 @@ import reflex as rx
 
 from rxconfig import config
 
-from pages.listings import listings
-from pages.search import search_page
+from .pages.listings import listings
+from .pages.search import search_page
 
 
 class State(rx.State):
