@@ -2,8 +2,8 @@ import reflex as rx
 
 from rxconfig import config
 
-from .pages.listings import listings
-from .pages.search import search_page
+from airbnb_reflex.pages.listings import listings
+from airbnb_reflex.pages.search import search_page
 
 
 class State(rx.State):
