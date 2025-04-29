@@ -44,3 +44,8 @@ app.add_page(index)
 app.add_page(listings, route="/listings", title="Listings")
 
 app.add_page(search_page, route="/search", title="Search")
+
+
+
+if __name__ == "__main__":
+    app.compile()
