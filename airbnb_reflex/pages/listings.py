@@ -1,5 +1,5 @@
 import reflex as rx
-from .layout import layout
+from airbnb_reflex.layout import layout
 
 # Dummy listings
 properties = [
