@@ -13,12 +13,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Generate the static frontend assets 
-# RUN reflex export --frontend-only --no-zip
-
-RUN reflex export --frontend-only --no-zip && \
-    echo "Exported files:" && \
-    find /app/.web/_static
-
+RUN reflex export --frontend-only --no-zip
 
 # Stage 2: Serve static files with nginx
 FROM nginx:alpine
